@@ -1,14 +1,14 @@
 (function() {
     'use strict';
 
-    var directives = angular.module("fullDocApp.directives", []);
+    var directives = angular.module("fullDoc.directives", []);
 
     directives.directive('mainDiv', function() {
         return {
             restrict: 'E',
-            templateUrl: 'app/static/templates/main-div.html',
-            controller: 'app/js/global-controller.js',
-            controllerAs : 'global',
+            templateUrl: '../static/templates/main-div.html',
+            controller: 'GlobalController',
+            controllerAs : 'globalCtrl',
         };
     });
-});
+})();

@@ -1,6 +1,8 @@
-(function() {
+(function () {
     'use strict';
 
-    var app =  angular.module('app', []);
-
-});
+    var app =  angular.module('fullDoc', [
+        'fullDoc.directives',
+        'fullDoc.controller'
+    ]);
+})();
