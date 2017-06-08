@@ -1,3 +1,19 @@
-#container {
+#wrapper {
   padding: 50px 150px;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: "bold";
+    margin: 0;
+}
+
+h2 {
+    font-family: "Open Sans";
+    color: rgba(0,0,0,.44);
+    font-size: 27px;
+    font-style: "normal";
+    font-weight: 300;
+    margin: 0, 0, 0, 10px;
 }
